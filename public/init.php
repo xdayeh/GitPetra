@@ -8,7 +8,7 @@ if ($_SERVER['SERVER_PORT'] === 80){
     define('URL_XP', "http://" . $_SERVER["SERVER_NAME"].':'.$_SERVER['SERVER_PORT'] . DS);
 }
 
-const LANGUAGES_PATH = APP_PATH . 'Core' . DS . 'languages' . DS;
+const LANGUAGES_PATH = APP_PATH . 'core' . DS . 'languages' . DS;
 const CSS = URL_XP . 'style' . DS . 'stylesheet' . DS;
 const JS = URL_XP . 'style' . DS . 'javascript' . DS;
 const IMG = URL_XP . 'style' . DS . 'img' . DS;
