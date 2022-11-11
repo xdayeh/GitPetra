@@ -17,6 +17,11 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+    public function pay(): bool|array|string
+    {
+        return $this->render('pay');
+    }
+
     public function language()
     {
         if (isset($_SERVER['HTTP_REFERER']) && !empty($_COOKIE['lang'])) {
