@@ -84,8 +84,8 @@
         </div>
     </nav>
 
-    <div class="container d-flex align-items-center justify-content-center py-5">
-        <div class="row py-lg-5">
+    <div class="container">
+        <div class="row py-5">
         {{content}}
         </div>
     </div>
